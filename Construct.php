@@ -6,7 +6,7 @@ class Login
   private $senha;
   private $nome;
 
-  // O construct é inicializado no momento em que a Classe é instalcializada
+  // O construct é inicializado no momento em que a Classe é instanciada.
   public function __construct($email, $senha, $nome)
   {
     $this->nome = $nome;
